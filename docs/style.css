@@ -116,6 +116,27 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 
 
+/* Video Background Styles */
+
+.video-bg-container, .bloc-video{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 50%;
+	right: -50%;
+	overflow: hidden;
+	transform: translateX(-50%);
+	-webkit-transform:translateX(-50%);
+}
+.bloc-video{
+	width: auto;
+	height: auto;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: 0;
+}
+
+
 /* Background Textures */
 
 .bloc-bg-texture::before{
@@ -493,7 +514,7 @@ iframe{
 -------------------------------------------------------------- */
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
-	font-family:"Helvetica";
+	font-family:"Montserrat";
 }
 .container{
 	max-width:1170px;
@@ -594,6 +615,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-bottom:40px;
 	color:#3C3C3C!important;
 }
+.bold{
+	font-weight:bold;
+	font-family:"Montserrat";
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -613,6 +638,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .tc-moonstone-blue{
 	color:#71BAA7!important;
+}
+/* Link colour styles */
+
+.ltc-white{
+	color:#ffffff!important;
+}
+.ltc-white:hover{
+	color:#ffffff!important;
 }
 
 /* Bloc image backgrounds */
