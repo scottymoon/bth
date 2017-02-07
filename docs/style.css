@@ -650,9 +650,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Bloc image backgrounds */
 
-.bg-hero{
-	background-image:url("img/hero.jpg");
-}
 .bg-background-green{
 	background-image:url("img/background_green.png");
 }
