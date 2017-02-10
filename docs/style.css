@@ -232,23 +232,6 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	border-color:rgba(0,0,0,.3);
 }
 
-/* Row Margin Offsets */
-
-.voffset-lg{
-	margin-top:80px;
-}
-
-/* Column No Gutters */
-
-.row-no-gutters{
-	margin-right:0;
-	margin-left:0;
-}
-.row.row-no-gutters > [class^="col-"],.row.row-no-gutters > [class*=" col-"] {
-	padding-right: 0;
-	padding-left: 0;
-}
-
 /* Bloc text custom styling */
 
 #explained h1{
@@ -414,10 +397,6 @@ nav .caret{
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
-.mg-sm{
-	margin-top:10px;
-	margin-bottom:5px;
-}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -655,6 +634,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bg-lines-dl{
 	background-image:url("img/lines-dl.png");
+}
+.bg-bth-banner-poster{
+	background-image:url('img/bth-banner-poster.jpg');
 }
 
 
