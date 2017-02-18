@@ -100,6 +100,32 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 
 
+/* Group Styles */
+
+.bloc-group{
+	width:100%;
+	display:table;
+	table-layout: fixed;
+}
+.bloc-group .bloc{
+	position:relative;
+	display: table-cell;
+	vertical-align: top;
+}
+.bloc-tile-2{
+	width:50%;
+}
+.bloc-tile-3{
+	width:33.33333333%;
+}
+.bloc-tile-4{
+	width:25%;
+}
+.bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container{
+	width:100%;
+}
+
+
 /* Background Styles */
 
 .bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
@@ -239,16 +265,11 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	border-color:rgba(0,0,0,.3);
 }
 
-/* Row Margin Offsets */
-
-.voffset{
-	margin-top:30px;
-}
-
 /* Bloc text custom styling */
 
 #explained h1{
-	font-size: 46px;
+	font-size: 55px;
+	line-height: 65px;
 }
 #explained p{
 	font-size: 18px;
@@ -259,8 +280,29 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-4 p{
 	font-size: 20px;
 }
-#questions h1{
+#respond h1{
+	line-height: 65px;
+	font-size: 55px;
+}
+#respond h3{
+	line-height: 33px;
+	font-size: 30px;
+}
+#respond p{
+	line-height: 28px;
+	font-size: 20px;
+}
+#bloc-7 h3{
+	line-height: 50px;
 	font-size: 46px;
+}
+#bloc-7 p{
+	font-size: 28px;
+	line-height: 38px;
+}
+#questions h1{
+	line-height: 65px;
+	font-size: 55px;
 }
 #questions h2{
 	font-size: 30px;
@@ -268,17 +310,16 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #questions p{
 	font-size: 20px;
 }
+#questions h3{
+	font-size: 30px;
+}
 #groups h1{
-	font-size: 46px;
 	line-height: 50px;
+	font-size: 55px;
 }
 #groups p{
-	line-height: 28px;
-	font-size: 20px;
-}
-#bloc-7 p{
-	font-size: 16px;
-	line-height: 20px;
+	line-height: 38px;
+	font-size: 28px;
 }
 
 /* = NavBar
@@ -422,6 +463,10 @@ nav .caret{
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-sm{
+	margin-top:10px;
+	margin-bottom:5px;
+}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -618,6 +663,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-size:20px;
 	margin-bottom:40px;
 	color:#3C3C3C!important;
+	font-family:"Montserrat";
 }
 .bold{
 	font-weight:bold;
@@ -637,11 +683,24 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 /* Text colour styles */
 
+.tc-outer-space{
+	color:#47454A!important;
+}
 .tc-dark-jungle-green{
 	color:#232323!important;
 }
 .tc-moonstone-blue{
 	color:#71BAA7!important;
+}
+/* Button colour styles */
+
+.btn-steel-blue{
+	background:#497F9E;
+	color:#FFFFFF!important;
+}
+.btn-steel-blue:hover{
+	background:#3a667e;
+	color:#FFFFFF!important;
 }
 /* Link colour styles */
 
