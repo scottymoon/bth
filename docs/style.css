@@ -100,32 +100,6 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 
 
-/* Group Styles */
-
-.bloc-group{
-	width:100%;
-	display:table;
-	table-layout: fixed;
-}
-.bloc-group .bloc{
-	position:relative;
-	display: table-cell;
-	vertical-align: top;
-}
-.bloc-tile-2{
-	width:50%;
-}
-.bloc-tile-3{
-	width:33.33333333%;
-}
-.bloc-tile-4{
-	width:25%;
-}
-.bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container{
-	width:100%;
-}
-
-
 /* Background Styles */
 
 .bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
@@ -264,6 +238,12 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	color:rgba(0,0,0,.7);
 	border-color:rgba(0,0,0,.3);
 }
+/* Dividers */
+
+.b-divider{
+	border-top:1px solid rgba(0,0,0,.1);
+	border-bottom:1px solid rgba(0,0,0,.1);
+}
 
 /* Bloc text custom styling */
 
@@ -272,7 +252,8 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	line-height: 65px;
 }
 #explained p{
-	font-size: 18px;
+	line-height: 28px;
+	font-size: 20px;
 }
 #bloc-3 p{
 	font-size: 20px;
@@ -303,6 +284,14 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #commit h1{
 	line-height: 65px;
 	font-size: 55px;
+}
+#commit h3{
+	line-height: 33px;
+	font-size: 30px;
+}
+#commit p{
+	line-height: 28px;
+	font-size: 20px;
 }
 #questions h1{
 	line-height: 65px;
@@ -703,6 +692,37 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-weight:bold;
 	font-family:"Montserrat";
 }
+.field{
+	padding:10px 10px 10px 10px;
+	border-style:solid;
+	border-width:5px 5px 5px 5px;
+	border-color:#C9C9C9;
+	border-radius:0px 0px 0px ;
+	background-size:auto auto;
+	height:60px;
+}
+.form-lab{
+}
+.form-label{
+	padding-top:15px;
+	font-size:18px;
+	font-family:"Montserrat";
+	text-transform:uppercase;
+}
+.form-button{
+	margin-top:42px;
+}
+.form-radio{
+	font-family:"Montserrat";
+	font-size:18px;
+	border-style:none;
+}
+.video-embed{
+	border-style:solid;
+	border-width:2px 2px 2px 2px;
+	border-color:#AAAAAA;
+	padding:10px 10px 10px 10px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -714,6 +734,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bgc-white{
 	background-color:#ffffff;
+}
+.bgc-isabelline{
+	background-color:#EEEEEE;
 }
 /* Text colour styles */
 
@@ -728,13 +751,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 /* Button colour styles */
 
-.btn-terra-cotta{
-	background:#EF7261;
-	color:#FFFFFF!important;
+.btn-meat-brown{
+	background:#F3B83E;
+	color:rgba(0,0,0,.5)!important;
 }
-.btn-terra-cotta:hover{
-	background:#bf5b4e;
-	color:#FFFFFF!important;
+.btn-meat-brown:hover{
+	background:#c29332;
+	color:rgba(0,0,0,.5)!important;
 }
 .btn-steel-blue{
 	background:#497F9E;

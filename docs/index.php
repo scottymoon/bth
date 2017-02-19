@@ -2,8 +2,8 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
+    <meta name="keywords" content="church of the four corners independence missouri build this house">
+    <meta name="description" content="cotfc build this house ">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
     <link rel="shortcut icon" type="image/png" href="favicon.png">
     
@@ -16,8 +16,18 @@
 	<script src="./js/blocs.min.js"></script>
 	<script src="./js/jqBootstrapValidation.js"></script>
 	<script src="./js/formHandler.js"></script>
-    <title>Home</title>
-
+    <title>Build This House</title>
+<style>
+	input[type="text"] {
+	  padding: 10px;
+	  border: solid 5px #c9c9c9;
+	  transition: border 0.3s;
+	}
+	input[type="text"]:focus,
+	input[type="text"].focus {
+	  border: solid 5px #969696;
+	}
+</style>
     
 <!-- Google Analytics -->
  
@@ -33,7 +43,7 @@
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/bth-horizontal.png" alt="logo" /></a>
+				<a class="navbar-brand" href="index.php"><img src="img/bth-horizontal.png" alt="logo" /></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -58,6 +68,8 @@
 					<li>
 						<a href="#groups" class="ltc-white" id="pl-undefined">GROUPS</a>
 					</li>
+					<li>
+					</li>
 				</ul>
 			</div>
 		</nav>
@@ -75,7 +87,7 @@
 	<div class="container fill-bloc-top-edge sticky-nav">
 		<nav class="navbar row mini-nav">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/bth-horizontal.png" alt="logo" /></a>
+				<a class="navbar-brand" href="index.php"><img src="img/bth-horizontal.png" alt="logo" /></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -99,6 +111,8 @@
 					</li>
 					<li>
 						<a href="#groups" class="ltc-white" id="pl-undefined">GROUPS</a>
+					</li>
+					<li>
 					</li>
 				</ul>
 			</div>
@@ -126,7 +140,7 @@
 
 
 <!-- Footer - explained -->
-<div class="bloc bgc-white l-bloc tc-outer-space" id="explained">
+<div class="bloc bgc-white tc-outer-space" id="explained">
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-12">
@@ -146,7 +160,7 @@
 <!-- Footer - explained END -->
 
 <!-- Footer - bloc-3 -->
-<div class="bloc bgc-white l-bloc tc-outer-space" id="bloc-3">
+<div class="bloc bgc-white tc-outer-space" id="bloc-3">
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-6">
@@ -164,7 +178,7 @@
 					BUILD THIS HOUSE IN OUR COMMUNITY <br>$780,000
 				</h3>
 				<p>
-					We believe the effectiveness of our ministry will be greatly impacted by&nbsp;<span class="community">relocating into a permanent home</span>. A building allows us to drive a stake into the ground of our community. It will also greatly increase the quality of ministry we are able to offer our kids, students and groups. Additionally, we are excited about opportunities to leverage our building for the bene t of our community.
+					We believe the effectiveness of our ministry will be greatly impacted by&nbsp;<span class="community">relocating into a permanent home</span>. A building allows us to drive a stake into the ground of our community. It will also greatly increase the quality of ministry we are able to offer our kids, students and groups. Additionally, we are excited about opportunities to leverage our building for the benefit of our community.
 				</p>
 			</div>
 		</div>
@@ -173,7 +187,7 @@
 <!-- Footer - bloc-3 END -->
 
 <!-- Footer - bloc-4 -->
-<div class="bloc bgc-white l-bloc tc-outer-space" id="bloc-4">
+<div class="bloc bgc-white tc-outer-space" id="bloc-4">
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-6">
@@ -191,7 +205,7 @@
 					BUILD THIS HOUSE IN OUR WORLD <br>$44,000
 				</h3>
 				<p>
-					God has given our church a burden for the people of the impoverished nation of Moldova. We have already begun the work of planting our rst church with great success. Through the Build This House initiative, we will&nbsp;<span class="world">complete and fully fund our rst church plant in Cania and begin work on a second</span>.<br>
+					God has given our church a burden for the people of the impoverished nation of Moldova. We have already begun the work of planting our first church with great success. Through the Build This House initiative, we will&nbsp;<span class="world">complete and fully fund our first church plant in Cania and begin work on a second</span>.<br>
 				</p>
 			</div>
 		</div>
@@ -216,8 +230,8 @@
 <!-- Footer - brochure END -->
 
 <!-- Footer - respond -->
-<div class="bloc bgc-white l-bloc tc-outer-space" id="respond">
-	<div class="container bloc-sm">
+<div class="bloc bgc-white tc-outer-space" id="respond">
+	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-12">
 				<h1 class="mg-md  tc-dark-jungle-green">
@@ -241,14 +255,11 @@
 </div>
 <!-- Footer - respond END -->
 
-<!-- Bloc Group -->
-<div class='bloc-group'>
-
 <!-- Footer - bloc-7 -->
-<div class="bloc bloc-tile-2 bgc-white l-bloc" id="bloc-7">
-	<div class="container bloc-sm">
+<div class="bloc bgc-white l-bloc" id="bloc-7">
+	<div class="container bloc-md">
 		<div class="row">
-			<div class="col-sm-12">
+			<div class="col-sm-6">
 				<h3 class="mg-md  tc-dark-jungle-green">
 					Give
 				</h3>
@@ -256,35 +267,24 @@
 					Take a few moments and locate where you are on the giving pathway. Consider taking the next step to increase your impact. Whether you&rsquo;re brand new or have been giving to COTFC for a long time, we&rsquo;re asking you to prayerfully consider taking the next step forward.
 				</p>
 			</div>
-		</div>
-	</div>
-</div>
-<!-- Footer - bloc-7 END -->
-
-<!-- Footer - bloc-8 -->
-<div class="bloc l-bloc bgc-white bloc-tile-2" id="bloc-8">
-	<div class="container bloc-sm">
-		<div class="row">
-			<div class="col-sm-12">
+			<div class="col-sm-6">
 				<img src="img/giving-pathway.gif" class="img-responsive" />
 			</div>
 		</div>
 	</div>
 </div>
-<!-- Footer - bloc-8 END -->
-</div>
-<!-- Bloc Group END -->
+<!-- Footer - bloc-7 END -->
 
 <!-- Footer - commit -->
-<div class="bloc bgc-white l-bloc" id="commit">
+<div class="bloc tc-outer-space bgc-isabelline l-bloc" id="commit">
 	<div class="container bloc-lg">
 		<div class="row">
-			<div class="col-sm-12">
+			<div class="col-sm-6">
 				<h1 class="mg-md  tc-dark-jungle-green">
 					Commitment Card
 				</h1>
-				<h3 class="mg-md">
-					My One-Year Commitment
+				<h3 class="mg-md  tc-dark-jungle-green">
+					My Three-Year Commitment
 				</h3>
 				<p>
 					Prayer is an important part in making your commitment. Seek what you think you can do, and then confirm what the Holy Spirit is asking you to do.
@@ -292,82 +292,107 @@
 				<div class="divider-h">
 					<span class="divider"></span>
 				</div>
-				<form id="form_41305" novalidate success-msg="Thank you for your commitment!">
+				<form id="form_41305" novalidate success-msg="Thank you for your commitment!" fail-msg="We&rsquo;re sorry, something went wrong.">
 					<div class="form-group">
-						<label>
+						<label class="form-label">
 							Name
 						</label>
-						<input class="form-control" id="name_field" required />
+						<input class="form-control field" id="name_field" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label class="form-label">
 							Street Address
 						</label>
-						<input class="form-control" id="address_field" required />
+						<input class="form-control field" id="street_address_field" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label class="form-label">
 							City
 						</label>
-						<input class="form-control" id="city_field" required />
+						<input class="form-control field" id="city_field" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label class="form-label">
 							State
 						</label>
-						<input class="form-control" id="state_field" required />
+						<input class="form-control field" id="state_field" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label class="form-label">
 							Zipcode<br>
 						</label>
-						<input class="form-control" id="zipcode_field" required />
+						<input class="form-control field" id="zipcode_field" required type="number" />
 					</div>
 					<div class="form-group">
-						<label>
+						<label class="form-label">
 							Phone
 						</label>
-						<input class="form-control" id="phone_field" required />
+						<input class="form-control field" id="phone_field" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label class="form-label">
 							Email
 						</label>
-						<input class="form-control" id="email_field" required />
+						<input class="form-control field" id="email_field" required type="email" />
 					</div>
 					<div class="form-group">
-						<label>
+						<label class="form-label">
 							What step are you taking today?
 						</label>
 					</div>
-					<div class="form-group">
-						<select class="form-control" id="step_field">
-							<option value="I will start to give back to God through COTFC">
-								I will start to give back to God through COTFC
-							</option>
-							<option value="I will give in a consistent way to God through COTFC">
-								I will give in a consistent way to God through COTFC
-							</option>
-							<option value="I will faithfully give 10% of my income to God through COTFC">
-								I will faithfully give 10% of my income to God through COTFC
-							</option>
-							<option value="I will give beyond my tithe to God through COTFC">
-								I will give beyond my tithe to God through COTFC
-							</option>
-						</select>
+					<div class="radio">
+						<label class="form-radio">
+							<input type="radio" name="radioSetOne" value="I-will-start-to-give-back-to-God-through-COTFC" id="input_871" />I will start to give back to God through COTFC
+						</label>
+					</div>
+					<div class="radio">
+						<label class="form-radio">
+							<input type="radio" name="radioSetOne" value="I-will-give-in-a-consistent-way-to-God-through-COTFC" id="input_1208" />I will give in a consistent way to God through COTFC
+						</label>
+					</div>
+					<div class="radio">
+						<label class="form-radio">
+							<input type="radio" name="radioSetOne" value="I-will-faithfully-give-10-of-my-income-to-God-through-COTFC" id="input_2563" />I will faithfully give 10% of my income to God through COTFC
+						</label>
+					</div>
+					<div class="radio">
+						<label class="form-radio">
+							<input type="radio" name="radioSetOne" value="I-will-give-beyond-my-tithe-to-God-through-COTFC" id="input_2766" />I will give beyond my tithe to God through COTFC
+						</label>
 					</div>
 					<div class="form-group">
-						<label>
-							My one-year commitment total
+						<label class="form-label">
+							What i normally give in a year
 						</label>
-						<input class="form-control" id="commitment_field" required />
+						<input class="form-control field" id="normal_give_field" />
+					</div>
+					<div class="form-group">
+						<label class="form-label">
+							my expanded annual generosity for build this house
+						</label>
+						<input class="form-control field" id="expanded_generosity_field" />
+					</div>
+					<div class="form-group">
+						<label class="form-label">
+							gift from my stored resources<br>
+						</label>
+						<input class="form-control field" id="stored_resources_field" />
+					</div>
+					<div class="form-group">
+						<label class="form-label">
+							My three-year commitment total
+						</label>
+						<input class="form-control field" id="three_year_commitment_field" required />
 					</div>
 					<div class="text-center">
-						<button class="bloc-button btn btn-block btn-sq btn-xl btn-terra-cotta" type="submit">
+						<button class="bloc-button btn btn-block btn-sq btn-xl form-button btn-meat-brown" type="submit">
 							Submit Commitment
 						</button>
 					</div>
 				</form>
+			</div>
+			<div class="col-sm-6">
+				<img src="img/commitment-card.png" class="img-responsive" />
 			</div>
 		</div>
 	</div>
@@ -375,7 +400,7 @@
 <!-- Footer - commit END -->
 
 <!-- Footer - questions -->
-<div class="bloc bg-tl-edge bgc-white tc-outer-space" id="questions">
+<div class="bloc bg-tl-edge tc-outer-space bgc-white" id="questions">
 	<div class="container bloc-md">
 		<div class="row voffset-sm">
 			<div class="col-sm-12">
@@ -392,13 +417,13 @@
 					What if I can&rsquo;t afford to give right now?
 				</h2>
 				<p class=" answer">
-					Even in times of scarcity, God wants our hearts. The widow who gave her last coin did not make a very large nancial contribution, but Jesus said that she gave the largest gift of all. Build This House is about all of us coming together, giving generously, and trusting God to do the rest.
+					Even in times of scarcity, God wants our hearts. The widow who gave her last coin did not make a very large financial contribution, but Jesus said that she gave the largest gift of all. Build This House is about all of us coming together, giving generously, and trusting God to do the rest.
 				</p>
 				<h3 class="mg-md question ">
 					What if I&rsquo;m in debt right now? Am I still supposed to give?
 				</h3>
 				<p class="answer ">
-					It&rsquo;s important for generosity to be a part of our life at every point. If you are in the process of paying off debt, we commend you, and you should continue to do so. But the Bible does not teach that we withhold giving until we are debt-free. When we honor God rst with our giving, He promises to be involved with every other aspect of our nances. If you are need of assistance to become debt-free, consider attending one of our “I Was Broke Now I&rsquo;m Not” small groups.
+					It&rsquo;s important for generosity to be a part of our life at every point. If you are in the process of paying off debt, we commend you, and you should continue to do so. But the Bible does not teach that we withhold giving until we are debt-free. When we honor God &nbsp;first with our giving, He promises to be involved with every other aspect of our finances. If you are in need of assistance to become debt-free, consider attending one of our “I Was Broke Now I&rsquo;m Not” small groups.
 				</p>
 				<h3 class="mg-md question ">
 					What if I&rsquo;m a college student?
@@ -410,19 +435,19 @@
 					What if I&rsquo;m new or have never given to COTFC before?
 				</h3>
 				<p class="answer ">
-					If you have never given nancially to Church of the Four Corners, Build This House is for you! This is a “one-fund” generosity initiative. It is different from a traditional capital campaign where you are asked to give an extra gift “above and beyond” your regular giving. Rather, Build This House recognizes that everyone in the church is called to give generously and sacri cially. This initiative is not merelyfor “super-givers”; it is for all of us.
+					If you have never given financially to Church of the Four Corners, Build This House is for you! This is a “one-fund” generosity initiative. It is different from a traditional capital campaign where you are asked to give an extra gift “above and beyond” your regular giving. Rather, Build This House recognizes that everyone in the church is called to give generously and sacrificially. This initiative is not merely for “super-givers”; it is for all of us.
 				</p>
 				<h3 class="mg-md question ">
-					Why do churches talk about money, nances, and giving so much?
+					Why do churches talk about money, finances, and giving so much?
 				</h3>
 				<p class="answer ">
-					Churches talk about money a lot because the Bible talks about money a lot. Jesus himself made money – particularly our desire for it and our use of it – a major piece of our following Him as His disciples. For many, our af uence and desire for wealth stand in the way of the kind of sel ess and sacri cial life Jesus calls us to, and the desire for money easily becomes an obstacle to seeking our eternal satisfaction in God.
+					Churches talk about money a lot because the Bible talks about money a lot. Jesus himself made money – particularly our desire for it and our use of it – a major piece of our following Him as His disciples. For many, our affluence and desire for wealth stand in the way of the kind of selfless and sacrificial life Jesus calls us to, and the desire for money easily becomes an obstacle to seeking our eternal satisfaction in God.
 				</p>
 				<h3 class="mg-md question ">
 					How long will my commitment be to Build This House?
 				</h3>
 				<p class="answer ">
-					We are asking for nancial commitments to the Build This House initiative – including both general giving and what we need to fully pursue our vision – for a three-year period beginning in April 2017. Our commitment Sundaywill be March 19, 2017, and we will all begin giving toward those commitments on April 9, 2017.
+					We are asking for financial commitments to the Build This House initiative – including both general giving and what we need to fully pursue our vision – for a three-year period beginning in April 2017. Our commitment Sunday will be March 19, 2017, and we will all begin giving toward those commitments on April 9, 2017.
 				</p>
 				<h3 class="mg-md question ">
 					What forms of contributions will be accepted?
@@ -443,10 +468,10 @@
 					No. Anyone is welcome to give to the Build This House initiative and share in what God is doing here at COTFC!
 				</p>
 				<h3 class="mg-md question ">
-					Is my commitment con dential?
+					Is my commitment confidential?
 				</h3>
 				<p class="answer ">
-					Yes. Only our small nancial team has knowledge of pledges and giving records.
+					Yes. Only our small financial team has knowledge of pledges and giving records.
 				</p>
 			</div>
 		</div>
@@ -471,14 +496,54 @@
 </div>
 <!-- Footer - groups END -->
 
-<!-- Footer - bloc-12 -->
-<div class="bloc tc-outer-space bgc-white" id="bloc-12">
-	<div class="container bloc-md">
+<!-- Footer - bloc-11 -->
+<div class="bloc tc-outer-space bgc-white" id="bloc-11">
+	<div class="container bloc-md b-divider">
 		<div class="row">
 			<div class="col-sm-6">
 				<div class="embed-responsive embed-responsive-16by9">
-					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IplbQxL2LaE" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
-					</iframe>
+					<div>
+						<div class="embed-responsive embed-responsive-16by9">
+							<div class="row">
+								<div class="col-sm-12">
+									<div class="row">
+										<div class="col-sm-12">
+											<div class="row">
+												<div class="col-sm-12">
+													<div class="row">
+														<div class="col-sm-12">
+															<div class="row">
+																<div class="col-sm-12">
+																	<div class="row">
+																		<div class="col-sm-12">
+																			<div class="row">
+																				<div class="col-sm-12">
+																					<div class="row">
+																						<div class="col-sm-12">
+																							<div class="embed-responsive embed-responsive-16by9">
+																								<div class="embed-responsive embed-responsive-16by9">
+																									<iframe id="blocs-new-video888111" class="embed-responsive-item" src="https://www.youtube.com/embed/IplbQxL2LaE" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+																									</iframe>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="col-sm-6">
@@ -495,15 +560,15 @@
 		</div>
 	</div>
 </div>
-<!-- Footer - bloc-12 END -->
+<!-- Footer - bloc-11 END -->
 
-<!-- Footer - bloc-13 -->
-<div class="bloc bgc-white l-bloc" id="bloc-13">
-	<div class="container bloc-md">
+<!-- Footer - bloc-12 -->
+<div class="bloc bgc-white l-bloc" id="bloc-12">
+	<div class="container bloc-md b-divider">
 		<div class="row">
 			<div class="col-sm-6">
 				<div class="embed-responsive embed-responsive-16by9">
-					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Yly00LymrZg" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+					<iframe class="embed-responsive-item " src="https://www.youtube.com/embed/Yly00LymrZg" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
 					</iframe>
 				</div>
 			</div>
@@ -521,11 +586,11 @@
 		</div>
 	</div>
 </div>
-<!-- Footer - bloc-13 END -->
+<!-- Footer - bloc-12 END -->
 
-<!-- Footer - bloc-14 -->
-<div class="bloc tc-moonstone-blue bgc-white" id="bloc-14">
-	<div class="container bloc-md">
+<!-- Footer - bloc-13 -->
+<div class="bloc tc-moonstone-blue bgc-white" id="bloc-13">
+	<div class="container bloc-md b-divider">
 		<div class="row">
 			<div class="col-sm-6">
 				<div class="embed-responsive embed-responsive-16by9">
@@ -551,14 +616,12 @@
 		</div>
 	</div>
 </div>
-<!-- Footer - bloc-14 END -->
+<!-- Footer - bloc-13 END -->
 
-<!-- Footer - bloc-15 -->
-<div class="bloc tc-moonstone-blue bgc-white" id="bloc-15">
-	<div class="container bloc-md">
+<!-- Footer - bloc-14 -->
+<div class="bloc bgc-white tc-moonstone-blue" id="bloc-14">
+	<div class="container bloc-md b-divider">
 		<div class="row">
-			<div class="col-sm-6">
-			</div>
 			<div class="col-sm-6">
 				<h2 class="mg-lg tc-dark-jungle-green">
 					SMALL GROUP // WEEK 4
@@ -568,19 +631,19 @@
 				</h3>
 				<p class="mg-lg">
 					Many of us think that only the rich and wealthy can excel at giving. True, there are great humanitarians who have distributed vast sums of money to people and institutions worthy of their gift. But great giving is not determined by dollar amounts but by the amount of sacrifice. And once that standard is used, the playing field becomes level between the rich and the poor. In other words, one does not have to be rich to be a generous giver.
-				</p><a href="https://drive.google.com/file/d/0B5JsYlqpF0ZtZ3NjbUFmcmZDRnc/view?usp=sharing" class="btn btn-lg btn-steel-blue btn-sq" target="_blank">Download Leader&rsquo;s Guide</a>
+				</p><a href="https://drive.google.com/file/d/0B5JsYlqpF0ZtZ3NjbUFmcmZDRnc/view?usp=sharing" class="btn btn-lg btn-sq btn-steel-blue" target="_blank">Download Leader&rsquo;s Guide</a>
+			</div>
+			<div class="col-sm-6">
 			</div>
 		</div>
 	</div>
 </div>
-<!-- Footer - bloc-15 END -->
+<!-- Footer - bloc-14 END -->
 
-<!-- Footer - bloc-16 -->
-<div class="bloc tc-moonstone-blue bgc-white" id="bloc-16">
+<!-- Footer - bloc-15 -->
+<div class="bloc bgc-white tc-moonstone-blue" id="bloc-15">
 	<div class="container bloc-md">
 		<div class="row">
-			<div class="col-sm-6">
-			</div>
 			<div class="col-sm-6">
 				<h2 class="mg-lg tc-dark-jungle-green">
 					SMALL GROUP // WEEK 5
@@ -592,13 +655,15 @@
 					Psalm 127:1 tells us, “Unless God builds the house, the builders labor in vain.” In our final discussion, we will challenge the group to live with audacious faith and prayerfully consider how God might call us to participate in doing our part to see God Build This House!
 				</p><a href="https://drive.google.com/file/d/0B5JsYlqpF0ZtY01xYVRGVk82VGM/view?usp=sharing" class="btn btn-lg btn-sq btn-steel-blue" target="_blank">Download Leader&rsquo;s Guide</a>
 			</div>
+			<div class="col-sm-6">
+			</div>
 		</div>
 	</div>
 </div>
-<!-- Footer - bloc-16 END -->
+<!-- Footer - bloc-15 END -->
 
-<!-- Footer - bloc-17 -->
-<div class="bloc bgc-dark-jungle-green d-bloc" id="bloc-17">
+<!-- Footer - bloc-16 -->
+<div class="bloc bgc-dark-jungle-green d-bloc" id="bloc-16">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
@@ -607,7 +672,7 @@
 		</div>
 	</div>
 </div>
-<!-- Footer - bloc-17 END -->
+<!-- Footer - bloc-16 END -->
 
 </div>
 <!-- Main container END -->
