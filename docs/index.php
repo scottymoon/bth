@@ -17,17 +17,7 @@
 	<script src="./js/jqBootstrapValidation.js"></script>
 	<script src="./js/formHandler.js"></script>
     <title>Build This House</title>
-<style>
-	input[type="text"] {
-	  padding: 10px;
-	  border: solid 5px #c9c9c9;
-	  transition: border 0.3s;
-	}
-	input[type="text"]:focus,
-	input[type="text"].focus {
-	  border: solid 5px #969696;
-	}
-</style>
+
     
 <!-- Google Analytics -->
  
@@ -78,7 +68,7 @@
 <!-- bloc-0 END -->
 
 <!-- bloc-1 -->
-<div class="bloc bloc-fill-screen bloc-bg-texture texture-darken hidden-xs bg-bth-banner-poster bgc-dark-jungle-green d-bloc" id="bloc-1">
+<div class="bloc bloc-fill-screen bloc-bg-texture texture-darken hidden-xs bg-bth-banner-poster bgc-dark-jungle-green d-bloc " id="bloc-1">
 	<div class="video-bg-container">
 		<video class="bloc-video" preload="auto" loop="loop" autoplay="autoplay">
 			<source src="vid/bth-banner.mp4" type="video/mp4" />
@@ -568,7 +558,7 @@
 		<div class="row">
 			<div class="col-sm-6">
 				<div class="embed-responsive embed-responsive-16by9">
-					<iframe class="embed-responsive-item " src="https://www.youtube.com/embed/Yly00LymrZg" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Yly00LymrZg" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
 					</iframe>
 				</div>
 			</div>
