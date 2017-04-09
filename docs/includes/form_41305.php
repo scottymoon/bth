@@ -23,9 +23,9 @@
 	$to = 'info@cotfc.com'; // Email submissions are sent to this email
 
 	// Create email	
-	$email_subject = "Message from BuildThisHouse.";
+	$email_subject = "Message from buildthishouse.church.";
 	$email_body = "You have received a new message. \n\n".
-				  "Name: $name_field \nAddress: $street_address_field \nCity: $city_field \nState: $state_field \nZipcode: $zipcode_field \nPhone: $phone_field \nEmail: $email_field \n\n $input_871 \n $input_1208 \n $input_2563 \n $input_2766 \n\n What I normally give in a year: $normal_give_field \My expanded annual generosity for build this house: $expanded_generosity_field \nGift from my stored resources: $stored_resources_field \nMy three year commitment total: $three_year_commitment_field \n";
+				  "Name_Field: $name_field \nStreet_Address_Field: $street_address_field \nCity_Field: $city_field \nState_Field: $state_field \nZipcode_Field: $zipcode_field \nPhone_Field: $phone_field \nEmail_Field: $email_field \nInput_871: $input_871 \nInput_1208: $input_1208 \nInput_2563: $input_2563 \nInput_2766: $input_2766 \nNormal_Give_Field: $normal_give_field \nExpanded_Generosity_Field: $expanded_generosity_field \nStored_Resources_Field: $stored_resources_field \nThree_Year_Commitment_Field: $three_year_commitment_field \n";
 	$headers = "MIME-Version: 1.0\r\nContent-type: text/plain; charset=UTF-8\r\n";	
 	$headers .= "From: commitment@buildthishouse.church\n";
 	$headers .= "Reply-To: $email_field";	

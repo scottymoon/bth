@@ -29,7 +29,7 @@
 <div class="page-container">
     
 <!-- bloc-0 -->
-<div class="bloc object-hidden hidden-sm hidden-lg hidden-md sticky-nav bg-lines-dl bg-repeat bgc-dark-jungle-green d-bloc" id="bloc-0">
+<div class="bloc object-hidden hidden-sm hidden-lg hidden-md sticky-nav bg-lines-dl bg-repeat bgc-dark-jungle-green d-bloc " id="bloc-0">
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
@@ -68,7 +68,7 @@
 <!-- bloc-0 END -->
 
 <!-- bloc-1 -->
-<div class="bloc bloc-fill-screen bloc-bg-texture texture-darken hidden-xs bg-bth-banner-poster bgc-dark-jungle-green d-bloc " id="bloc-1">
+<div class="bloc bloc-fill-screen bloc-bg-texture texture-darken hidden-xs bg-bth-banner-poster bgc-dark-jungle-green d-bloc" id="bloc-1">
 	<div class="video-bg-container">
 		<video class="bloc-video" preload="auto" loop="loop" autoplay="autoplay">
 			<source src="vid/bth-banner.mp4" type="video/mp4" />

@@ -335,6 +335,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	margin: 0 5px 0 0;
 	display:inline;
 }
+.nav-center .navbar-brand img{
+	margin:0;
+}
 .navbar .nav{
 	padding-top: 2px;
 	margin-right: -16px;
@@ -400,6 +403,10 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 		position:relative;
 		width:100%;
 		margin-top:20px;
+	}
+.nav-center.mini-nav .navbar-toggle{
+	float:none;
+	margin: 10px auto 0;
 	}
 }
 .nav > li > .dropdown a{
@@ -821,6 +828,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
     .container{width:100%;}
     .b-parallax{background-attachment:scroll;}
     .page-container, #hero-bloc{overflow-x: hidden;position: relative;} /* Prevent unwanted side scroll on mobile */
+    .bloc-group, .bloc-group .bloc{display:block;width:100%;}
+    .bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container{padding-left: 10px;padding-right: 10px;}
 }
 @media (max-width: 767px)
 {
@@ -840,14 +849,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
     }
     #hero-bloc h3{
         font-size:25px;
-    }
-    .bloc{
-        padding-left: 0; 
-        padding-right: 0;  
-        -webkit-background-size: auto 200%;
-        -moz-background-size: auto 200%;
-        -o-background-size: auto 200%;
-        background-size: auto 200%;
     }
     .b-parallax{
         background-attachment:scroll;
@@ -917,14 +918,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
     .nav-invert .navbar-toggle{
         float:left; 
     }
-    .bloc-group .bloc{
-         display:block;
-         width:100%;
-     }
-    .bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container{
-	   padding-left: 10px;
-	   padding-right: 10px;
-    }
     .bloc-xxl,.bloc-xl,.bloc-lg{
         padding: 40px 0;
     }
@@ -965,6 +958,18 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
     .blocsapp-device-iphone5 img{
 	   width: 180px;
 	   height: 320px;
+    }
+}
+
+@media (max-width: 400px)
+{    
+    .bloc{
+        padding-left: 0; 
+        padding-right: 0;  
+        -webkit-background-size: auto 200%;
+        -moz-background-size: auto 200%;
+        -o-background-size: auto 200%;
+        background-size: auto 200%;
     }
 }
 
@@ -1036,7 +1041,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	transition: height 0.001s;
 }
 .mini-nav .special-dropdown-nav .site-navigation li a{
-	color: rgba(0,0,0,.6);
+	color: rgba(0,0,0,.6)!important;
 }
  }
 @media (max-width: 420px){
